@@ -189,16 +189,16 @@ article#tab figure .tabs
 
 article#tab
 {
-	margin: 0 auto;
-	border: 3px solid black ;
+	margin: 1em auto;	
 	text-align: center;
+
 }
 article figure .subtitle
 
 { 
 	background: red;
 	max-width: 1200px;
-	margin: 0 auto; 
+	margin: 0 0; 
 	padding: 0; 
 	vertical-align: top;
 	text-align: center;
@@ -284,3 +284,9 @@ section.contenido
 	padding: 1em;
 }
 
+section#tabs
+{
+	border:1px solid orange;
+	margin: 0.5em 0.5em;
+	text-align: center;
+}
