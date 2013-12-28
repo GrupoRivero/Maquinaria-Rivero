@@ -179,7 +179,7 @@ iframe{
     left:0px;
 
 }
-article#tabs figure .tabs
+article#tab figure .tabs
 { 
 	width: 100%; 
 	max-width: 1200px;
@@ -187,7 +187,7 @@ article#tabs figure .tabs
 
 }
 
-article#tabs 
+article#tab
 {
 	margin: 0 auto;
 	border: 3px solid black ;

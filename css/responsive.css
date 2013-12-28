@@ -1,0 +1,17 @@
+@media screen and (min-width:780px){
+
+	#tabs
+	{
+				margin: 0 auto;
+	}
+	#tabs #tab
+	{
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: 32%;
+
+	}
+}
+
+
