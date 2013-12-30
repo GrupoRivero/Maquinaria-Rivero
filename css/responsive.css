@@ -12,6 +12,9 @@
 		width: 32%;
 
 	}
+	section#slider-video{ }
+	section#slider-video #slider_box {display: inline-block; vertical-align: top; width: 50%;}
+	section#slider-video #caja-video {  display:inline-block; vertical-align: top; width: 47%; position: relative; left: 10px ;}
 }
 
 
