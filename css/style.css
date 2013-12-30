@@ -187,12 +187,7 @@ article#tab figure .tabs
 
 }
 
-article#tab
-{
-	margin: 1em auto;	
-	text-align: center;
 
-}
 article figure .subtitle
 
 { 
@@ -232,9 +227,9 @@ footer
 	background: #002e6f;
 	color: white; 
 	margin: 0 auto; 
-	text-align: center; 
-	
+	text-align: center; 	
 	padding: 1em;
+	box-sizing:border-box;
 }
 footer .grid
 {
@@ -286,7 +281,9 @@ section.contenido
 
 section#tabs
 {
+	box-sizing:border-box;
 	border:1px solid orange;
 	margin: 0.5em 0.5em;
 	text-align: center;
+	padding: 0.5em 0.5em;
 }
