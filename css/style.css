@@ -80,8 +80,7 @@ html
 
 body
 { 
-   background-attachment: fixed; 
-	background-image: url('../img/fondo.png');
+   background: #002058 ;
 	font-family: helvetica; 
 	padding-bottom: 1em; 
 	width: 100%; 
@@ -282,7 +281,7 @@ section.contenido
 section#tabs
 {
 	box-sizing:border-box;
-	border:1px solid orange;
+	
 	margin: 0.5em 0.5em;
 	text-align: center;
 	padding: 0.5em 0.5em;

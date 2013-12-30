@@ -1,8 +1,17 @@
 @media screen and (min-width:780px){
 
+	body
+	{ 
+	    background-attachment: fixed; 
+		background-image: url('../img/fondo.png');
+		font-family: helvetica; 
+		padding-bottom: 1em; 
+		width: 100%; 
+ 	}
+
 	#tabs
 	{
-				margin: 0 auto;
+		margin: 0 80px;
 	}
 	#tabs #tab
 	{
