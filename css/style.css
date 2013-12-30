@@ -167,9 +167,13 @@ iframe{
 }
 article#tab figure .tabs
 { 
-	width: 100%; 
+	margin-bottom: :0;
+	padding: 0;
 	max-width: 1200px;
 	text-align: center;
+	width: 100%; 
+	border-radius: 10px;
+	
 
 }
 
@@ -177,14 +181,24 @@ article#tab figure .tabs
 article figure .subtitle
 
 { 
-	background: red;
+	background: #002a71;
+	margin-top: 0 ; 
 	max-width: 1200px;
-	margin: 0 0; 
 	padding: 0; 
-	vertical-align: top;
 	text-align: center;
+	vertical-align: top;
+	font-family: "bitsumishiregular";
+	color: white;
+	border-radius: 10px;
+	position: relative;
+	bottom: 23px;
+	font-size: 12px;
+	padding: 0.2em;
+	
 }
-}
+article figure .subtitle a
+{color:#f19700;}
+
 
 img.sub-logos
 { 
