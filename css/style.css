@@ -75,88 +75,75 @@ html
 }
 
 
+aside 
+{
+	box-sizing:border-box;
+	background: #002e6f;
+	margin: 1em auto; 
+	text-align: none;
+	max-width: 98%; 
+	width: auto;
+	padding: 2em;
+	color: white;
+	box-shadow: 1px 5px 10px black;
 
+}
+aside article 
+ { 
+ 	border-sizing:border-box; 	
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	margin: 0.5em 0;
+ 	padding: 0.5em ;
+ }
+  aside article a
+  {
+  	text-decoration: none;
+  	color: white;
+  	font-size: 16px;
+  	text-transform: uppercase;
+  }
+aside #barra_google
+{ 
+		float: left;
+		border: 2px solid black;
+		max-width: 600px;	
+		width: 100%;
+		display:none;	
+
+}
 
 
 body
 { 
-   background: #002058 ;
+   background: #001233 ;
 	font-family: helvetica; 
 	padding-bottom: 1em; 
 	width: 100%; 
 	
 
  }
-h1  
-{ 
-
-}
-
-/*
- header
+header #titulo_header
 {
-	background: -webkit-linear-gradient(90deg, #001882 , #FFFFFF 100%); 
-	background: -o-linear-gradient(90deg, #001882 , #FFFFFF 100%); 
-	background: -moz-linear-gradient(90deg, #001882 , #FFFFFF 100%); 
-	background: linear-gradient(90deg, #001882 , #FFFFFF 100%); 
-	border-radius: 10px;	
-	margin:0 auto;
-	margin-bottom: 15px;
-	width: 95%;
+	border: 2px solid red; text-align: center;
 }
-header #barra_amarilla
-{ 
-	background:#ffb800; 
-	border-radius:0 0 10px 10px; 
-	color: #001790; 
-	font-size: 18px;
-	font-weight:bold; 
-	margin: 1em 0 0 0; 
-	text-align: center; 
-	padding: 0.5em;
-}
-header figure, header h1 
-{ 
-	display:inline-block; 
-	vertical-align: top;
-}
-header h1 span
-{ 
-	color: white;
-	position: relative;
-	bottom: 0.1em ;
-	border-top: solid 3px  #4ba0e3;;
-	font-size: 60px ;
-	padding: 0;
-	margin: 0 0 0 0;
-}
-header #logo
- {
- 	margin: 2em 0 0 1em;
- 	width: 200px; 
- 	border: solid 3px black;
- }
-header #logo-liugong  
+header #logo img,header #avatar img
 {
-	float: right; 
-	margin: 4.5em 4.5em 0 0; 
+	width: 150px; border: 2px solid red; margin: 0; margin:  auto; display: block;
 }
-header #logo-genie  
-{
-	float: right; 
-	margin: 4.5em 2em 0 0; 
-}
-header figure img 
+header #avatar , header #logo 
 { 
-	width: 200px;
-} 
-*/
-.cajadevideo{
+	border: 2px solid red; margin: 1em 0; 
+}
 
+header h1{ font-family: "bitsumishiregular"; font-size: 33px;}
+
+
+.cajadevideo
+{
     max-width:1200px;
     margin:auto;
-    
-
 }
 
 .video{
