@@ -1,4 +1,6 @@
-@media screen and (min-width:780px){
+@media screen and (min-width:780px)
+
+{
 
 	body
 	{ 
@@ -24,6 +26,38 @@
 	section#slider-video{ }
 	section#slider-video #slider_box {display: inline-block; vertical-align: top; width: 50%;}
 	section#slider-video #caja-video {  display:inline-block; vertical-align: top; width: 47%; position: relative; left: 10px ;}
+
+	header #logo
+	{
+		margin: 0 0 1em 0;
+
+	}
+	header, header #titulo_header, header #logo, header #avatar
+	{
+		display: inline-block; vertical-align: top;
+	}
+
+	header 
+	{
+	  	border: 2px solid black; 
+	  	display: block;
+	  	padding: 1em;
+	  	box-sizing:border-box;
+	}
+
+	header #avatar 
+	{ 
+		 margin: 1.5em 0 0 0; display: line; float: right;
+	}
+
+	header #titulo_header
+	{
+		margin: .8em 0 0 0.5em; display: line;
+	}
+	header #logo img,header #avatar img
+	{
+		 
+	}
 }
 
 

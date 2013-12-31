@@ -83,9 +83,10 @@ aside
 	text-align: none;
 	max-width: 98%; 
 	width: auto;
-	padding: 2em;
+	padding: 0 2em;
 	color: white;
 	box-shadow: 1px 5px 10px black;
+	border-radius: 10px;
 
 }
 aside article 
@@ -124,18 +125,20 @@ body
 	
 
  }
+
+ header {}
 header #titulo_header
 {
-	border: 2px solid red; text-align: center;
+	/*border: 2px solid red;*/ text-align: center;
 }
 header #logo img,header #avatar img
 {
-	width: 150px; border: 2px solid red; margin: 0; margin:  auto; display: block;
+	width: 150px; /*border: 2px solid red;*/ margin: 0; margin:  auto; display: block;
 }
-header #avatar , header #logo 
+/*header #avatar , header #logo 
 { 
-	border: 2px solid red; margin: 1em 0; 
-}
+	border: 2px solid red; margin: 1em 0;  
+}*/
 
 header h1{ font-family: "bitsumishiregular"; font-size: 33px;}
 
@@ -165,6 +168,11 @@ iframe{
     left:0px;
 
 }
+
+article#tab
+{
+	margin: 0 0.2em;
+}
 article#tab figure .tabs
 { 
 	margin-bottom: :0;
@@ -173,6 +181,8 @@ article#tab figure .tabs
 	text-align: center;
 	width: 100%; 
 	border-radius: 10px;
+	box-shadow: 5px 20px 5px #888888;
+
 	
 
 }
