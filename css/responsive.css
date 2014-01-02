@@ -21,14 +21,22 @@
 		width: 32%;
 
 	}
-	
+
 	.fright
 	{
 	 	float: right;
 	}
 
-	section#chat-contactanos article{ display: inline-block; vertical-align: top; }
-	section#chat-contactanos article a p{ float: right; }
+	section#chat-contactanos article
+	{ 
+		display: inline-block; 
+		vertical-align: top; 
+	}
+	
+	section#chat-contactanos article a p
+	{ 
+		float: right; 
+	}
 	
 	section#slider-video #slider_box 
 	{
