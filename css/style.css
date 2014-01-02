@@ -8,6 +8,16 @@ html
 { 
 	
 }
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/fonts/icomoon.eot');
+	src:url('../fonts/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fonts/icomoon.woff') format('woff'),
+		url('../fonts/fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
     font-family: 'bitsumishiregular';
@@ -17,7 +27,10 @@ html
          url('../fonts/bitsumis.ttf') format('truetype'),
          url('../fonts/bitsumis.svg#bitsumishiregular') format('svg');
     font-weight: normal;
-    font-style: normal;  }
+    font-style: normal;  
+}
+
+
 
 #logo
 {
@@ -74,7 +87,8 @@ html
 	width:100%;
 }
 
-
+.social-icons{ width: 30px ;}
+.logo-footer{ width: 150px;}
 section#chat-contactanos 
 {
 	box-sizing:border-box;
@@ -232,7 +246,7 @@ article figure .subtitle
 	vertical-align: top;
 	font-family: "bitsumishiregular";
 	color: white;
-	border-radius: 10px;
+	border-radius:0 0 10px 10px;
 	position: relative;
 	bottom: 28px;
 	font-size: 12px;
@@ -285,7 +299,7 @@ footer .grid
 
 footer .grid article
 {
-	border: 1px solid black;
+	
 }
 footer .grid ul li 
 {
@@ -297,6 +311,8 @@ footer .grid article figure
 {
 	display: inline-block;
 	vertical-align: top;
+	
+	padding:0; 
 }
 footer p 
 {

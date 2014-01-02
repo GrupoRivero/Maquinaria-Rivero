@@ -21,7 +21,15 @@
 		width: 32%;
 
 	}
-	section#slider-video{ }
+	
+	.fright
+	{
+	 	float: right;
+	}
+
+	section#chat-contactanos article{ display: inline-block; vertical-align: top; }
+	section#chat-contactanos article a p{ float: right; }
+	
 	section#slider-video #slider_box 
 	{
 		display: inline-block;
@@ -42,7 +50,7 @@
 		margin: 0 0 1em 0;
 
 	}
-header #avatar
+	header #avatar
 	{
 
 
