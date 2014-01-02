@@ -1,6 +1,4 @@
-@media screen and (min-width:780px)
-
-{
+@media screen and (min-width:780px){
 
 	body
 	{ 
@@ -24,17 +22,36 @@
 
 	}
 	section#slider-video{ }
-	section#slider-video #slider_box {display: inline-block; vertical-align: top; width: 50%;}
-	section#slider-video #caja-video {  display:inline-block; vertical-align: top; width: 47%; position: relative; left: 10px ;}
+	section#slider-video #slider_box 
+	{
+		display: inline-block;
+		vertical-align: 
+		top; width: 50%;
+	}
+	section#slider-video #caja-video 
+	{  
+		display:inline-block; 
+		vertical-align: top; 
+		width: 47%; 
+		position: relative; 
+		left: 10px ;
+	}
 
 	header #logo
 	{
 		margin: 0 0 1em 0;
 
 	}
+header #avatar
+	{
+			
+
+	}
+
 	header, header #titulo_header, header #logo, header #avatar
 	{
-		display: inline-block; vertical-align: top;
+		display: inline-block; 
+		vertical-align: top;
 	}
 
 	header 
@@ -47,12 +64,15 @@
 
 	header #avatar 
 	{ 
-		 margin: 1.5em 0 0 0; display: line; float: right;
+		 margin: 1.5em 0 0 0;
+		  display: line;
+		  float: right;
 	}
 
 	header #titulo_header
 	{
-		margin: .8em 0 0 0.5em; display: line;
+		margin: .8em 0 0 0.5em; 
+		display: line;
 	}
 	header #logo img,header #avatar img
 	{

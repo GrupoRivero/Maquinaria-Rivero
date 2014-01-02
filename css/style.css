@@ -75,7 +75,7 @@ html
 }
 
 
-aside 
+section#chat-contactanos 
 {
 	box-sizing:border-box;
 	background: #002e6f;
@@ -89,7 +89,7 @@ aside
 	border-radius: 10px;
 
 }
-aside article 
+section#chat-contactanos article 
  { 
  	border-sizing:border-box; 	
  	display: block;
@@ -98,14 +98,14 @@ aside article
  	margin: 0.5em 0;
  	padding: 0.5em ;
  }
-  aside article a
+  section#chat-contactanos article a
   {
   	text-decoration: none;
   	color: white;
   	font-size: 16px;
   	text-transform: uppercase;
   }
-aside #barra_google
+section#chat-contactanos #barra_google
 { 
 		float: left;
 		border: 2px solid black;
@@ -126,21 +126,26 @@ body
 
  }
 
- header {}
+ header
+ {
+	background: -webkit-linear-gradient(left, #001882 , #001882, white 100% ); /* For Safari */
+	background: -o-linear-gradient(right, #001882, #001882, white 100%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #001882, #001882,white 100%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #001882 , #001882, white 100%); /* Standard syntax */
+	border-radius: 10px ;
+}
 header #titulo_header
 {
 	/*border: 2px solid red;*/ text-align: center;
 }
 header #logo img,header #avatar img
 {
-	width: 150px; /*border: 2px solid red;*/ margin: 0; margin:  auto; display: block;
+	width: 150px; /*border: 2px solid red;*/ margin: 0 auto; display: block;
 }
-/*header #avatar , header #logo 
-{ 
-	border: 2px solid red; margin: 1em 0;  
-}*/
+header #logo{ margin-bottom: 10px ;}
 
-header h1{ font-family: "bitsumishiregular"; font-size: 33px;}
+header h1{ font-family: "bitsumishiregular"; font-size: 35px; font-weight: normal; width: 200px;margin: 0 auto; position: relative; bottom: 10px; color: #36c0e9; }
+header h1 span{ font-size: 60px; color: white; border-top: 3px solid #36c0e9;}
 
 
 .cajadevideo
