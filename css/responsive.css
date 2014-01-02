@@ -60,13 +60,17 @@ header #avatar
 	  	display: block;
 	  	padding: 1em;
 	  	box-sizing:border-box;
+	  	background: -webkit-linear-gradient(left, #001882 , #001882, white 100% ); /* For Safari */
+		background: -o-linear-gradient(right, #001882, #001882, white 100%); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, #001882, #001882,white 100%); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, #001882 , #001882, white 100%); /* Standard syntax */
 	}
 
 	header #avatar 
 	{ 
 		 margin: 1.5em 0 0 0;
-		  display: line;
-		  float: right;
+		 display: line;
+		 float: right;
 	}
 
 	header #titulo_header
@@ -74,10 +78,18 @@ header #avatar
 		margin: .8em 0 0 0.5em; 
 		display: line;
 	}
-	header #logo img,header #avatar img
+	header #avatar img
 	{
-		 
+		max-width: 200px;
+		width: 100%;
 	}
 }
 
+@media (min-width:780px) and (max-width:1150px){
 
+	header #avatar
+	{
+		display: none;
+	}
+
+}
