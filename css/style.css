@@ -32,6 +32,350 @@ html
 
 
 
+
+
+
+article#tab
+{
+	margin: 0 0.2em;
+}
+article#tab figure .tabs
+{ 
+	margin-bottom: :0;
+	padding: 0;
+	max-width: 1200px;
+	text-align: center;
+	width: 100%; 
+	border-radius: 10px;
+	box-shadow: 5px 20px 5px #888888;
+
+}
+
+
+
+
+article figure .subtitle
+
+{ 
+	background: #002a71;
+	margin-top: 0 ; 
+	max-width: 1200px;
+	padding: 0; 
+	text-align: center;
+	vertical-align: top;
+	font-family: "bitsumishiregular";
+	color: white;
+	border-radius:0 0 10px 10px;
+	position: relative;
+	bottom: 28px;
+	font-size: 12px;
+	padding: 0.2em;
+	
+}
+article figure .subtitle a
+{color:#f19700;}
+
+
+aside
+{
+	display: none;
+}
+body
+{ 
+   background: #001233 ;
+	font-family: helvetica; 
+	padding-bottom: 1em; 
+	width: 100%; 
+ }
+img.sub-logos
+{ 
+	max-width: 100%; 
+	width: 150px;
+}
+
+figure 
+{
+	padding: .5em 0 0 0;
+}
+footer
+{
+	background: #002e6f;
+	color: white; 
+	margin: 0 auto; 
+	text-align: center; 	
+	padding: 1em;
+	box-sizing:border-box;
+}
+footer .grid
+{
+	box-sizing:border-box;
+	display:inline-block;
+	margin: 0 10px;
+	padding:.1em;
+	vertical-align:top;
+}
+
+footer .grid article
+{
+	
+}
+footer .grid ul li 
+{
+	padding: 0 0 0 1.5em;
+	background: url('../img/nike.png') center left no-repeat;
+	text-align: left;
+}
+footer .grid article figure
+{
+	display: inline-block;
+	vertical-align: top;
+	
+	padding:0; 
+}
+footer p 
+{
+	margin: 10px 20px 15px 0;	
+	text-align: center;
+	font-weight: bold;
+
+}
+footer ul, footer ul li a 
+{ 
+	background: none; 
+	color: white ; 
+	list-style-type:none; 
+	text-align: center; 
+	text-decoration: none;
+	font-size: 12px;
+}
+
+iframe{
+
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+
+}
+ header
+ {
+		background: -webkit-linear-gradient(#001882 ,  white  ); /* For Safari */
+		background: -o-linear-gradient(#001882, white ); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#001882, white ); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to #001882 ,  white ); /* Standard syntax */
+	border-radius:10px 10px 0 0 ;
+}
+header #titulo_header
+{
+	/*border: 2px solid red;*/ text-align: center;
+}
+header #logo img,header #avatar img
+{
+	width: 150px; 
+	/*border: 2px solid red;*/ 
+	margin: 0 auto; 
+	display: block;
+}
+header #logo
+{
+ margin-bottom: 10px ;
+}
+
+header h1
+{ 
+	font-family: "bitsumishiregular"; 
+	font-size: 35px; 
+	font-weight: normal; 
+	width: 200px;
+	margin: 0 auto; 
+	position: relative; 
+	bottom: 10px; 
+	color: #36c0e9; 
+}
+header h1 span
+{ 
+	font-size: 60px; 
+	color: white; 
+	border-top: 3px solid #36c0e9;
+}
+nav 
+{
+	
+	
+	padding: .2em; 
+	margin: 100px 100px: ;
+	text-decoration:none;
+	width: 100%;
+	height: 20px; 
+	font-size: 15px ;
+	text-align: center;
+}
+section.contenido
+{
+	width: 80%;
+	margin: 0 auto ;
+	background: white;
+	padding: 1em;
+	
+	text-align: center;
+}
+section#chat-contactanos 
+{
+	box-sizing:border-box;
+	background: #002e6f;
+	margin: 1em auto; 
+	text-align: none;
+	max-width: 98%; 
+	width: auto;
+	padding: 0 2em;
+	color: white;
+	box-shadow: 1px 5px 10px black;
+	border-radius: 10px;
+	display: block;
+
+}
+section#chat-contactanos article 
+ { 
+ 	border-sizing:border-box; 	
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	margin: 0.5em 0;
+ 	padding: 0.5em ;
+ }
+  section#chat-contactanos article a
+  {
+  	text-decoration: none;
+  	color: white;
+  	font-size: 16px;
+  	text-transform: uppercase;
+  }
+section#chat-contactanos #barra_google
+{ 
+		float: left;
+		border: 2px solid black;
+		max-width: 600px;	
+		width: 100%;
+		display:none;	
+
+}
+
+section#tabs
+{
+	box-sizing:border-box;
+	
+	margin: 0.5em 0.5em;
+	text-align: center;
+	padding: 0.5em 0.5em;
+}
+
+
+section.contenido section #venta-nuevos 
+{ 
+		margin:10px 10px;
+
+}
+section.contenido section #venta-nuevos img
+{
+		margin-bottom: :0;
+		padding: 0;
+		max-width: 1200px;
+		text-align: center;
+		width: 100%; 
+		border-radius: 10px;
+		box-shadow: 5px 5px 5px #888888;
+}
+
+section#info-box{
+	
+	background: #ffb800;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	color: #001789;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+section.contenido .banner img
+ {
+ 	max-width: 1200px; 
+ 	width: 100%;
+ }
+section.contenido .img-banner
+ {
+	 border:1px solid black;
+ }
+section.contenido .img-banner img
+ {
+	 max-width: 1200px; width: 100%;
+ }
+
+section.contenido figcaption ul
+{ 
+	list-style-type: none; 
+	text-align: left;
+}
+section.contenido .item-complementos
+{
+	font-size: 26px; 
+	border:1px solid black; 
+	margin: 1em 0; 
+	padding: 0.5em; 
+	border-radius: 10px; 
+	background: #ffb800; 
+	font-weight: bold; 
+}
+#form-box
+{
+		margin-top: 1em;
+		border: 1px solid gray; 
+		padding: 1em; 
+		text-align: left;
+		background: #d6e7f7;
+		border-radius: 5px;
+}
+#form-box form fieldset label
+{
+		color: #6e7582;
+		margin:50px 0; 
+		font-size: 16px;
+}
+#form-box form fieldset h2
+{
+		color: #6e7582;
+		margin-bottom: 0.5em;
+		
+		
+}
+#form-box form input, textarea
+{
+		background: white ; 
+		border-radius: 5px; 
+		padding: 0.1em;
+		margin: 0.5em;
+}
+#form-box form #submit
+{
+		background: #deefff;
+		padding: 0.5em;
+}
+.cajadevideo
+{
+    max-width:1200px;
+    margin:auto;
+}
+
+.video{
+
+    height:0px;
+    width:100%;
+    max-width:1200px;
+    padding-top:56.25%;
+    position:relative;
+
+}
 #logo
 {
 	margin:20px 0 0 0;
@@ -95,285 +439,3 @@ html
 { 
 	width: 150px;
 }
-
-section#chat-contactanos 
-{
-	box-sizing:border-box;
-	background: #002e6f;
-	margin: 1em auto; 
-	text-align: none;
-	max-width: 98%; 
-	width: auto;
-	padding: 0 2em;
-	color: white;
-	box-shadow: 1px 5px 10px black;
-	border-radius: 10px;
-	display: block;
-
-}
-section#chat-contactanos article 
- { 
- 	border-sizing:border-box; 	
- 	display: block;
- 	text-align: center;
- 	font-size: 18px;
- 	margin: 0.5em 0;
- 	padding: 0.5em ;
- }
-  section#chat-contactanos article a
-  {
-  	text-decoration: none;
-  	color: white;
-  	font-size: 16px;
-  	text-transform: uppercase;
-  }
-section#chat-contactanos #barra_google
-{ 
-		float: left;
-		border: 2px solid black;
-		max-width: 600px;	
-		width: 100%;
-		display:none;	
-
-}
-
-
-body
-{ 
-   background: #001233 ;
-	font-family: helvetica; 
-	padding-bottom: 1em; 
-	width: 100%; 
- }
-
- header
- {
-		background: -webkit-linear-gradient(#001882 ,  white  ); /* For Safari */
-		background: -o-linear-gradient(#001882, white ); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#001882, white ); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to #001882 ,  white ); /* Standard syntax */
-	border-radius:10px 10px 0 0 ;
-}
-header #titulo_header
-{
-	/*border: 2px solid red;*/ text-align: center;
-}
-header #logo img,header #avatar img
-{
-	width: 150px; 
-	/*border: 2px solid red;*/ 
-	margin: 0 auto; 
-	display: block;
-}
-header #logo
-{
- margin-bottom: 10px ;
-}
-
-header h1
-{ 
-	font-family: "bitsumishiregular"; 
-	font-size: 35px; 
-	font-weight: normal; 
-	width: 200px;
-	margin: 0 auto; 
-	position: relative; 
-	bottom: 10px; 
-	color: #36c0e9; 
-}
-header h1 span
-{ 
-	font-size: 60px; 
-	color: white; 
-	border-top: 3px solid #36c0e9;
-}
-section#info-box{
-	
-	background: #ffb800;
-	border-radius: 0 0 10px 10px;
-	text-align: center;
-	color: #001789;
-	padding: 0.5em;
-	font-weight: bold;
-	font-size: 18px;
-}
-
-.cajadevideo
-{
-    max-width:1200px;
-    margin:auto;
-}
-
-.video{
-
-    height:0px;
-    width:100%;
-    max-width:1200px;
-    padding-top:56.25%;
-    position:relative;
-
-}
-
-iframe{
-
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0px;
-    left:0px;
-
-}
-
-article#tab
-{
-	margin: 0 0.2em;
-}
-article#tab figure .tabs
-{ 
-	margin-bottom: :0;
-	padding: 0;
-	max-width: 1200px;
-	text-align: center;
-	width: 100%; 
-	border-radius: 10px;
-	box-shadow: 5px 20px 5px #888888;
-
-	
-
-}
-
-aside{display: none;}
-
-
-
-article figure .subtitle
-
-{ 
-	background: #002a71;
-	margin-top: 0 ; 
-	max-width: 1200px;
-	padding: 0; 
-	text-align: center;
-	vertical-align: top;
-	font-family: "bitsumishiregular";
-	color: white;
-	border-radius:0 0 10px 10px;
-	position: relative;
-	bottom: 28px;
-	font-size: 12px;
-	padding: 0.2em;
-	
-}
-article figure .subtitle a
-{color:#f19700;}
-
-
-img.sub-logos
-{ 
-	max-width: 100%; 
-	width: 150px;
-}
-nav 
-{
-	
-	
-	padding: .2em; 
-	margin: 100px 100px: ;
-	text-decoration:none;
-	width: 100%;
-	height: 20px; 
-	font-size: 15px ;
-	text-align: center;
-}
-
-figure 
-{
-	padding: .5em 0 0 0;
-}
-footer
-{
-	background: #002e6f;
-	color: white; 
-	margin: 0 auto; 
-	text-align: center; 	
-	padding: 1em;
-	box-sizing:border-box;
-}
-footer .grid
-{
-	box-sizing:border-box;
-	display:inline-block;
-	margin: 0 10px;
-	padding:.1em;
-	vertical-align:top;
-}
-
-footer .grid article
-{
-	
-}
-footer .grid ul li 
-{
-	padding: 0 0 0 1.5em;
-	background: url('../img/nike.png') center left no-repeat;
-	text-align: left;
-}
-footer .grid article figure
-{
-	display: inline-block;
-	vertical-align: top;
-	
-	padding:0; 
-}
-footer p 
-{
-	margin: 10px 20px 15px 0;	
-	text-align: center;
-	font-weight: bold;
-
-}
-footer ul, footer ul li a 
-{ 
-	background: none; 
-	color: white ; 
-	list-style-type:none; 
-	text-align: center; 
-	text-decoration: none;
-	font-size: 12px;
-}
-
-section.contenido
-{
-	width: 80%;
-	margin: 0 auto ;
-	background: white;
-	padding: 1em;
-	
-	text-align: center;
-}
-
-section#tabs
-{
-	box-sizing:border-box;
-	
-	margin: 0.5em 0.5em;
-	text-align: center;
-	padding: 0.5em 0.5em;
-}
-
-
-	section.contenido section #venta-nuevos 
-	{ 
-		margin:10px 10px;
-
-	}
-	section.contenido section #venta-nuevos img
-	{
-		margin-bottom: :0;
-		padding: 0;
-		max-width: 1200px;
-		text-align: center;
-		width: 100%; 
-		border-radius: 10px;
-		box-shadow: 5px 5px 5px #888888;
-	}

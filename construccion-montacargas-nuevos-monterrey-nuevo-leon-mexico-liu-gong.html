@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="plugins/themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-    <link href="css/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
- 	<link href="css/default.css" media="screen" rel="stylesheet" type="text/css" /> 
-    
+      <link rel="stylesheet" href="css/nav.css">
+
   
 
 
 
 	<!--scripts-->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
 	<script  src="modernizr.js"></script>
 	 <script type="text/javascript" src="js/jMenu.jquery.js"></script>
 	 <script>
@@ -84,99 +85,37 @@ function MM_swapImage() { //v3.0
 	
 <!--
 -->
-<nav> <!--
-
-<ul id="nav" class="dropdown dropdown-horizontal">
-<li><a href="index.php"><img src="img/casita.png" width="14" height="12"></a></li>
-    <li class="dir">VENTA DE NUEVOS
+<nav> 
+    <span><a href="#" class="mobile_close"></a></span><!-- Keep for Mobile Devices -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Venta de Nuevos</a>
         <ul>
-            <li class="dir"><a href="maquinaria-pesada-construccion-nuevos-liugong-monterrey-mexico.php">Maquinaria Pesada</a>
-                <ul>
-                    <li><a href="construccion-minicargadores-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Minicargadores</a></li>
-
-                    <li><a href="construccion-retroexcavadoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Retroexcavadoras</a></li>
-                    <li><a href="construccion-cargadoresfrontales-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Cargadores Frontales</a></li>
-                    <li><a href="construccion-excavadoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Excavadoras</a></li>
-                    <li><a href="construccion-vibrocompactadores-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Vibrocompactadores</a></li>
-                    <li><a href="construccion-motoniveladoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Motoniveladoras</a></li>
-                    <li><a href="construccion-bulldozer-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Bulldozer</a></li>
-                </ul>
-            </li>
-            <li class="dir"><a href="plataformas-elevacion-construccion-nuevas-genie-monterrey-mexico.php">Plataforma de Elevación</a>
-                <ul>
-                    <li><a href="construccion-plataformas-personales-nuevos-monterrey-nuevo-leon-mexico-genie.php">Plataformas Personales</a></li>
-                    <li><a href="construccion-plataformas-tijera-nuevos-monterrey-nuevo-leon-mexico-genie.php">Plataformas de Tijera</a></li>
-                    <li><a href="construccion-plataformas-articuladas-nuevos-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas</a></li>
-                    <li><a href="construccion-plataformas-telescopicas-nuevos-monterrey-nuevo-leon-mexico-genie.php">Plataformas Telescópicas</a></li>
-                    <li><a href="construccion-plataformas-articulasdas-sobre-remolque-nuevos-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas sobre Remolque</a></li>
-
-                </ul>
-            </li>
-                                <li><a href="construccion-montacargas-nuevos-monterrey-nuevo-leon-mexico-liu-gong.php">Montacargas</a></li>
+          <li><a href="">Maquinaria Pesada</a></li>
+          <li><a href="">Plataformas de Elevación</a></li>
+          <li><a href="">Montacargas</a></li>
         </ul>
-    </li>
-       <li class="dir">VENTA DE USADOS
+      </li>
+      <li><a href="#">Venta de Usados</a>
         <ul>
-            <li class="dir"><a href="maquinaria-pesada-construccion-usados-liugong-monterrey-mexico.php">Maquinaria Pesada</a>
-                <ul>
-                    <li><a href="construccion-minicargadores-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Minicargadores</a></li>
-
-                    <li><a href="construccion-retroexcavadoras-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Retroexcavadoras</a></li>
-                    <li><a href="construccion-cargadoresfrontales-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Cargadores Frontales</a></li>
-                    <li><a href="construccion-excavadoras-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Excavadoras</a></li>
-                    <li><a href="construccion-vibrocompactadores-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Vibrocompactadores</a></li>
-                    <li><a href="construccion-motoniveladoras-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Motoniveladoras</a></li>
-                    <li><a href="construccion-bulldozer-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Bulldozer</a></li>
-                </ul>
-            </li>
-            <li class="dir"><a href="plataformas-elevacion-construccion-usados-genie-monterrey-mexico.php">Plataforma de Elevación </a>
-                <ul>
-                    <li><a href="construccion-plataformas-personales-usados-monterrey-nuevo-leon-mexico-genie.php">Plataformas Personales</a></li>
-                    <li><a href="construccion-plataformas-tijera-usados-monterrey-nuevo-leon-mexico-genie.php">Plataformas de Tijera</a></li>
-                    <li><a href="construccion-plataformas-articuladas-usados-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas</a></li>
-                    <li><a href="construccion-plataformas-telescopicas-usados-monterrey-nuevo-leon-mexico-genie.php">Plataformas Telescópicas</a></li>
-                    <li><a href="construccion-plataformas-articulasdas-sobre-remolque-usados-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas sobre Remolque</a></li>
-
-                </ul>
-            </li>
-                                <li><a href="construccion-montacargas-usados-monterrey-nuevo-leon-mexico-liu-gong.php">Montacargas</a></li>
+          <li><a href="">Maquinaria Pesada</a></li>
+          <li><a href="">Plataformas de Elevación</a></li>
+          <li><a href="">Montacargas</a></li>
         </ul>
-    </li>
-       <li class="dir">RENTA
+      </li>      
+      <li><a href="#">Renta</a>
         <ul>
-            <li class="dir"><a href="maquinaria-pesada-construccion-renta-liugong-monterrey-mexico.php">Maquinaria Pesada</a>
-                <ul>
-                    <li><a href="construccion-minicargadores-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Minicargadores</a></li>
-                    <li><a href="construccion-retroexcavadoras-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Retroexcavadoras</a></li>
-                    <li><a href="construccion-cargadoresfrontales-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Cargadores Frontales</a></li>
-                    <li><a href="construccion-excavadoras-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Excavadoras</a></li>
-                    <li><a href="construccion-vibrocompactadores-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Vibrocompactadores</a></li>
-                    <li><a href="construccion-motoniveladoras-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Motoniveladoras</a></li>
-                    <li><a href="construccion-bulldozer-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Bulldozer</a></li>
-                </ul>
-            </li>
-            <li class="dir"><a href="plataformas-elevacion-construccion-renta-genie-monterrey-mexico.php">Plataforma de Elevación</a>
-                <ul>
-                    <li><a href="construccion-plataformas-personales-renta-monterrey-nuevo-leon-mexico-genie.php">Plataformas Personales</a></li>
-                    <li><a href="construccion-plataformas-tijera-renta-monterrey-nuevo-leon-mexico-genie.php">Plataformas de Tijera</a></li>
-                    <li><a href="construccion-plataformas-articuladas-renta-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas</a></li>
-                    <li><a href="construccion-plataformas-telescopicas-renta-monterrey-nuevo-leon-mexico-genie.php">Plataformas Telescópicas</a></li>
-                    <li><a href="construccion-plataformas-articulasdas-sobre-remolque-renta-monterrey-nuevo-leon-mexico-genie.php">Plataformas Articuladas sobre Remolque</a></li>
-                </ul>
-                
-            </li>
-                                <li><a href="construccion-montacargas-renta-monterrey-nuevo-leon-mexico-liu-gong.php">Montacargas</a></li>
-
+          <li><a href="">Maquinaria Pesada</a></li>
+          <li><a href="">Plataformas de Elevación</a></li>
+          <li><a href="">Montacargas</a></li>
         </ul>
-    </li>
-    <li><a href="servicio-maquinaria-construccion-liugong-genie-monterrey-mexico.php">SERVICIO</a></li>
-    <li><a href="refacciones-maquinaria-construccion-liugong-genie-monterrey-mexico.php">REFACCIONES</a></li>
-    <li><a href="quienes-somos-maquinaria-construccion-liugong-genie-monterrey-mexico.php">QUIENES SOMOS</a></li>
-    <li><a href="http://maquinariarivero.com/noticias/">NOTICIAS</a></li>
-    <li><a href="contacto-maquinaria-construccion-liugong-genie-monterrey-mexico.php">CONTACTO</a></li>
-        </ul>
-    </li>
-</ul> -->
+      </li>
+      <li><a href="#">Servicio</a></li>
+      <li><a href="#">Refacciones</a></li>
+      <li><a href="#">Quienes somos</a></li>
+      <li><a href="#">Noticias</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>    
 
 
 </nav> 
@@ -209,7 +148,7 @@ function MM_swapImage() { //v3.0
    <section id="form-box">
        <form action="emaixl.php" method="post">
           <fieldset>
-            <legend>¿Necesitas Información?</legend>
+            <h2>¿Necesitas Información?</h2>
             <label> Nombre: </label>
             <input type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" />
             <br/>
@@ -222,7 +161,7 @@ function MM_swapImage() { //v3.0
             </input>
             <br>
             <br>
-            <label>¿Cómo se enteró de Nosotros?</label>
+            <label>¿Cómo se enteró de nosotros?</label>
             <select name="como">
               <option value="Buscador">Buscador</option>
               <option value="Facebook">Facebook</option>
@@ -253,12 +192,7 @@ function MM_swapImage() { //v3.0
    </section>
 <!-- video ends -->
 </aside>
-<style>
-	#form-box{border: 1px solid blue; padding: 1em; text-align: left;}
-	#form-box form fieldset label{margin: 1em 0;}
-	#form-box form input, textarea{background: blue ; border-radius: 5px; padding: 0.1em;}
 
-</style>
 
 <section class="contenido-secundario"> 
 
@@ -277,26 +211,45 @@ function MM_swapImage() { //v3.0
 	</figure>
 	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
 	<p class="item-complementos"><a href="#">Ver Galeria</a></p>
+
+<figure class="img-banner"><img class="img-ficha" src="img/maquinariarivero-montacargas-2025h-gruporivero.jpg" alt="avatar">
+		<figcaption> 
+			<ul>
+				<li><strong>Montacargas 2025H</strong></li>
+				<li><strong>Motor</strong>: Nissan K21/2.065L</li>
+				<li><strong>Capacidad:</strong> 2500 kg</li>
+				<li><strong>Mástil:</strong> Triple Desplazador Lateral</li>
+				<li><strong>Combustón:</strong> Gas/LPG</li>
+			</ul>
+		</figcaption>
+	</figure>
+	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
+	<p class="item-complementos"><a href="#">Ver Galeria</a></p>
+
+	<figure class="img-banner"><img class="img-ficha" src="img/maquinariarivero-montacargas-2025h-gruporivero.jpg" alt="avatar">
+		<figcaption> 
+			<ul>
+				<li><strong>Montacargas 2025H</strong></li>
+				<li><strong>Motor</strong>: Nissan K21/2.065L</li>
+				<li><strong>Capacidad:</strong> 2500 kg</li>
+				<li><strong>Mástil:</strong> Triple Desplazador Lateral</li>
+				<li><strong>Combustón:</strong> Gas/LPG</li>
+			</ul>
+		</figcaption>
+	</figure>
+	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
+	<p class="item-complementos"><a href="#">Ver Galeria</a></p>
+
 	<section class="video-item">
 		Aqui va un video
 	</section>
 
 </section>
 
-<style>
-	section.contenido .banner img {max-width: 1200px; width: 100%;}
-	section.contenido .img-banner {border:1px solid black;}
-	section.contenido .img-banner img {max-width: 1200px; width: 100%;  }
-	section.contenido figcaption ul{ list-style-type: none; text-align: left;}
-	section.contenido .item-complementos{font-size: 26px; border:1px solid black; margin: 1em 0; padding: 0.5em; border-radius: 10px; background: #ffb800; font-weight: bold; }
 
-
-
-		
-</style>
 	
 	
-<aside> </aside>
+
 
 
 
@@ -366,6 +319,8 @@ function MM_swapImage() { //v3.0
 
 
 </section>
-	
+
+
+<script type="text/javascript">
 </body>
 </html>
