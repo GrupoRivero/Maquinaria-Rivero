@@ -23,6 +23,10 @@
  		width: 65%;
  	}
 
+ 	.contenido-terciario
+ 	{
+ 		width: 65% ;
+ 	}
 	#tabs
 	{
 		margin: 0 80px;
@@ -34,6 +38,23 @@
 		text-align: center;
 		width: 32%;
 
+	}
+	section.contenido-terciario .item-complementos
+	{
+	background: #ffb800; 	 
+	border-radius: 10px; 
+	display: inline-block;
+	font-size: 16px; 
+	font-weight: normal; 
+	margin: 0.5em ;		 
+	padding: 0.5em; 
+	vertical-align: ;	
+	text-align: right;
+	}
+	section.contenido-terciario .item-complementos a
+	{
+		text-decoration: none;
+		color: white;
 	}
 
 	section #venta-nuevos 
@@ -118,6 +139,8 @@
 		max-width: 200px;
 		width: 100%;
 	}
+
+
 }
 
 @media (min-width:780px) and (max-width:1150px){
