@@ -87,8 +87,14 @@ html
 	width:100%;
 }
 
-.social-icons{ width: 30px ;}
-.logo-footer{ width: 150px;}
+.social-icons
+{ 
+	width: 30px ;
+}
+.logo-footer
+{ 
+	width: 150px;
+}
 
 section#chat-contactanos 
 {
@@ -236,6 +242,9 @@ article#tab figure .tabs
 
 }
 
+aside{display: none;}
+
+
 
 article figure .subtitle
 
@@ -339,6 +348,8 @@ section.contenido
 	margin: 0 auto ;
 	background: white;
 	padding: 1em;
+	
+	text-align: center;
 }
 
 section#tabs
@@ -349,3 +360,20 @@ section#tabs
 	text-align: center;
 	padding: 0.5em 0.5em;
 }
+
+
+	section.contenido section #venta-nuevos 
+	{ 
+		margin:10px 10px;
+
+	}
+	section.contenido section #venta-nuevos img
+	{
+		margin-bottom: :0;
+		padding: 0;
+		max-width: 1200px;
+		text-align: center;
+		width: 100%; 
+		border-radius: 10px;
+		box-shadow: 5px 5px 5px #888888;
+	}

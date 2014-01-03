@@ -1,5 +1,14 @@
 @media screen and (min-width:780px){
 
+	aside
+	{
+		display: block;
+		float: right;
+		width: 33%;
+		margin: 1em 0 0 0;
+		border: 1px solid red;
+	}
+
 	body
 	{ 
 	    background-attachment: fixed; 
@@ -8,6 +17,8 @@
 		padding-bottom: 1em; 
 		width: 100%; 
  	}
+
+ 	.contenido-secundario {width: 65%;}
 
 	#tabs
 	{
@@ -22,6 +33,11 @@
 
 	}
 
+	section #venta-nuevos 
+	{
+		display: inline-block; vertical-align: top;
+	} 
+
 	.fright
 	{
 	 	float: right;
@@ -32,7 +48,7 @@
 		display: inline-block; 
 		vertical-align: top; 
 	}
-	
+
 	section#chat-contactanos article a p
 	{ 
 		float: right; 
