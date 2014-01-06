@@ -5,7 +5,7 @@
 	clear:both;
 	font-size:16px;	
 	letter-spacing:1px;
-	margin: 40px auto;
+	margin: 10px auto;
 	font-family: 'helvetica'
 	
 	}
@@ -21,15 +21,7 @@
 		display:block;
 		font-family:Arial;
 		width:100%;
-		background: #bfbfbf; /* Old browsers */
-		background: -moz-linear-gradient(top,  #bfbfbf 1%, #a0a0a0 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#bfbfbf), color-stop(100%,#a0a0a0)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #bfbfbf 1%,#a0a0a0 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #bfbfbf 1%,#a0a0a0 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #bfbfbf 1%,#a0a0a0 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #bfbfbf 1%,#a0a0a0 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbfbf', endColorstr='#a0a0a0',GradientType=0 ); /* IE6-9 */
-
+		background: #002e6f;
 		border-radius:5px;
 		border-bottom: #d1d1d1 solid 3px ;
 	
@@ -128,7 +120,7 @@
 	#nav ul:before,nav ul:before
 	{
 		float: left;
-		content:"Navigation";
+		content:"Menú";
 		color:white;
 		line-height:58px;
 		text-indent:70px;

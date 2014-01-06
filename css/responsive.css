@@ -67,16 +67,21 @@
 	 	float: right;
 	}
 
-	section#chat-contactanos article
-	{ 
-		display: inline-block; 
-		vertical-align: top; 
-	}
+	section.chat-contactanos
+{
+	
+	text-align: center;
+	
+}
 
-	section#chat-contactanos article a p
-	{ 
-		float: right; 
-	}
+section.chat-contactanos a
+{	
+	display: inline;
+	margin-right: 0.5em
+	
+
+
+}
 	
 	section#slider-video #slider_box 
 	{
