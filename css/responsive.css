@@ -9,6 +9,9 @@
 		
 	}
 
+
+
+
 	body
 	{ 
 	    background-attachment: fixed; 
@@ -98,19 +101,7 @@ section.chat-contactanos a
 		left: 10px ;
 	}
 
-	header #logo
-	{
-		margin: 0 0 1em 0;
-		float: left;
-
-	}
-
-
-	header, header #titulo_header, header #logo, header #avatar
-	{
-		display: inline-block; 
-		vertical-align: top;
-	}
+		
 
 	header 
 	{
@@ -122,34 +113,34 @@ section.chat-contactanos a
 		background: -o-linear-gradient(right, #001882, #001882, white 100%); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(right, #001882, #001882,white 100%); /* For Firefox 3.6 to 15 */
 		background: linear-gradient(to right, #001882 , #001882, white 100%); /* Standard syntax */
+		
+	text-align: left;
+
 	}
 
-	header #avatar 
-	{ 
-		 margin: 1.5em 0 0 0;
-		 display: line;
-		 float: right;
-	}
 
-	header #titulo_header
-	{
-		margin: .8em 0 0 0.5em; 
-		display: line;
-	}
-	header #avatar img
-	{
-		max-width: 200px;
-		width: 100%;
-	}
+
+
+
+header #logo img 
+{
+	width: 400px;
+	
+	margin:0;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 }
 
-@media (min-width:780px) and (max-width:1150px){
-
-	header #avatar
-	{
-		display: none;
-	}
-
-}
+	
