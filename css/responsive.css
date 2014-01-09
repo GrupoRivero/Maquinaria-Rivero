@@ -118,21 +118,39 @@ section.chat-contactanos a
 
 	}
 
+header #logo
 
-
-
-
-header #logo img 
-{
-	width: 400px;
-	
-	margin:0;
-	text-align: left;
+{ 
+	border:1px solid red;
+	 width: 400px; 
+	 display: inline-block;
 }
 
+header #logo img 
 
+{
+	max-width: 400px;
+	width: 100%;	
+	margin:0;
+	text-align: left;
+	padding: 0.5em;
+	box-sizing:border-box;
+}
 
-
+figure#sublogo
+{
+	
+	vertical-align: top; 
+	border:  1px solid red;
+	float: right;
+	margin-top: 3em;
+}
+figure#sublogo img
+{
+	border: 1px solid yellow;
+	max-width: 150px;
+	width: 100%;
+}
 
 
 

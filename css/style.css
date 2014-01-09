@@ -165,17 +165,26 @@ iframe{
 }
  header
  {
-		background: #001882 ;
+				background: -webkit-linear-gradient(#001882 ,  white  ); /* For Safari */
+		background: -o-linear-gradient(#001882, white ); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#001882, white ); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to #001882 ,  white ); /* Standard syntax */
+
 		border-radius:10px 10px 0 0 ;
 		text-align: center;
 }
 
+header #logo
+{ 
+	border:1px solid red;
+	 width: 200px; 
+	 display: inline-block;
+}
 
 header #logo img 
 {
 	max-width: 400px;
-	width: 100%;
-	
+	width: 100%;	
 	margin:0;
 	text-align: left;
 	padding: 0.5em;
