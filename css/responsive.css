@@ -77,6 +77,30 @@
 	
 }
 
+#form-box
+{
+		
+		text-align: left;
+		
+}
+
+#form-box form input
+{
+		background: white ; 
+		border-radius: 10px; 
+		padding: 0.1em;
+		margin: 0.5em;
+		max-width: 250px;
+		width: 100%;
+		padding: 0.5em 0;
+}
+
+textarea 
+{
+	max-width: 500px;
+	width: 100%;
+}
+
 section.chat-contactanos a
 {	
 	display: inline;

@@ -344,16 +344,30 @@ section.contenido-terciario .item-complementos
 #form-box form input, textarea
 {
 		background: white ; 
-		border-radius: 5px; 
+		border-radius: 10px; 
 		padding: 0.1em;
 		margin: 0.5em;
 		max-width: 500px;
 		width: 100%;
+		padding: 0.5em 0;
+		transition:all 2s ease;
 }
 #form-box form #submit
 {
-		background: #deefff;
+		background: #ffb800; 
+		font-weight: bold; 
+		border-bottom: 2px solid #f19700;
 		padding: 0.5em;
+		cursor: pointer;
+		color: white;
+		transition:all 2s ease;
+
+}
+
+#form-box form #submit:hover
+{
+	background: darkorange;
+
 }
 .cajadevideo
 {
