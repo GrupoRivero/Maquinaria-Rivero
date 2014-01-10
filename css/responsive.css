@@ -15,7 +15,7 @@
 	body
 	{ 
 	    background-attachment: fixed; 
-		background-image: url('../img/fondo.png');
+		background-image: url('../img/fondo.png') ;
 		font-family: helvetica; 
 		padding-bottom: 1em; 
 		width: 100%; 
@@ -121,7 +121,7 @@ section.chat-contactanos a
 header #logo
 
 { 
-	border:1px solid red;
+	
 	 width: 400px; 
 	 display: inline-block;
 }
@@ -141,13 +141,13 @@ figure#sublogo
 {
 	
 	vertical-align: top; 
-	border:  1px solid red;
+	
 	float: right;
 	margin-top: 3em;
 }
 figure#sublogo img
 {
-	border: 1px solid yellow;
+	
 	max-width: 150px;
 	width: 100%;
 }
