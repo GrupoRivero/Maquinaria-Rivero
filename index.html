@@ -130,6 +130,18 @@ function MM_swapImage() { //v3.0
     </ul>   
 </nav> 
 <!--Fin Menu -->
+
+ <!-- style del-->
+<style>
+
+</style>
+
+<div id="divAnimado">
+<a href="https://chat01.emg-livechat.com/chat/chatstart.htm?domain=www.gruporivero.com" onclick="javascript:window.open('https://chat01.emg-livechat.com/chat/chatstart.htm?domain=www.gruporivero.com','wochat','width=484,height=361');return false;">
+<div id="chatea"></div>
+
+<a href="#" id="tachita" style="tachita"> Cerrar[X]</a>
+</div>
 	
 
 
@@ -264,8 +276,16 @@ function MM_swapImage() { //v3.0
   });
 </script>
 
+<script src="js/scripts.js"></script>
 
 
+<script type="text/javascript">
+          $(document).ready(function(){
+    $('#divAnimado').animate({  'margin-top': ($(window).height() - $('#divAnimado').height()) }, 1700).css('position', 'fixed');
+              $('#tachita').click(function(e){ e.preventDefault(); $(this).parent().detach(); });
+
+          });
+</script>
 </section>
 	
 </body>
