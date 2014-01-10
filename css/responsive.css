@@ -2,7 +2,7 @@
 
 	aside
 	{
-		display: block;
+		display: inline-block;
 		float: right;
 		width: 33%;
 		margin: 1em 0 0 0;
@@ -28,7 +28,7 @@
 
  	.contenido-terciario
  	{
- 		width: 65% ;
+ 		width: 60% ;
  	}
 	#tabs
 	{

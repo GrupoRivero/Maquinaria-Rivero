@@ -125,16 +125,20 @@ function MM_swapImage() { //v3.0
 <!--Fin Menu -->
 
 
-<aside>
-	<!-- video  -->
-<article id="caja-video">
+
 	
-	 <div class="cajadevideo">
-	        <div class="video">
-	            <iframe src="http://www.youtube.com/embed/HoQrbNsd2V4"></iframe>
-	        </div>    
-	 </div>
-</article>
+
+<section class="contenido-terciario">
+	<section class="map img-border">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4291.212748991932!2d-100.30165038556264!3d25.764452692127957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1389027858786" ></iframe>
+     </section>
+</section>
+
+
+<aside >
+
+
+
    <section id="form-box">
        <form action="emaixl.php" method="post">
           <fieldset>
@@ -178,72 +182,30 @@ function MM_swapImage() { //v3.0
             <br />
             <input type="submit" value="ENVIAR" name="submit1" id="submit" />
           </fieldset>
+
+
+          <section class="aside-direccion">
+	
+	<p>Visítanos en:</p>
+
+	<ul>
+		<li><strong>Dirección</strong></li>
+		<li>Av. Sendero No. 501 Col. Las Misiones.
+San Nicolas de los Garza N.L.</li>
+		<li><strong>Teléfonos</strong></li>
+		<li>8040-1020 /1967-2277</li>
+		<li><strong>email</strong></li>
+		<li>maquinaria@gruporivero.com</li>
+	</ul>
+</section>
           	
    </section>
-<!-- video ends -->
+
+
+
 </aside>
 
-
-<section class="contenido-terciario"> 
-
-	<figure class="banner"><img  src="img/maquinaria-rivero-montacargas-liugong-monterrey-mexico.jpg" alt="banner"/></figure>
-
-	<figure class="img-banner">
-	<img class="img-ficha" src="img/maquinariarivero-montacargas-2025h-gruporivero.jpg" alt="avatar"/>
-		<figcaption> 
-			<ul>
-				<li><strong>Montacargas 2025H</strong></li>
-				<li><strong>Motor</strong>: Nissan K21/2.065L</li>
-				<li><strong>Capacidad:</strong> 2500 kg</li>
-				<li><strong>Mástil:</strong> Triple Desplazador Lateral</li>
-				<li><strong>Combustón:</strong> Gas/LPG</li>
-			</ul>
-	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
-	<p class="item-complementos"><a href="#">Ver Galeria</a></p> 
-		</figcaption>
-	</figure>
-	
-</section>
-<section class="contenido-terciario"> 
-
-
-	<figure class="img-banner">
-	<img class="img-ficha" src="img/maquinariarivero-montacargas-2025h-gruporivero.jpg" alt="avatar"/>
-		<figcaption> 
-			<ul>
-				<li><strong>Montacargas 2025H</strong></li>
-				<li><strong>Motor</strong>: Nissan K21/2.065L</li>
-				<li><strong>Capacidad:</strong> 2500 kg</li>
-				<li><strong>Mástil:</strong> Triple Desplazador Lateral</li>
-				<li><strong>Combustón:</strong> Gas/LPG</li>
-			</ul>
-		</figcaption>
-	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
-	<p class="item-complementos"><a href="#">Ver Galeria</a></p> 
-	</figure>
-	
-</section>
-<section class="contenido-terciario"> 
-
-
-	<figure class="img-banner">
-	<img class="img-ficha" src="img/maquinariarivero-montacargas-2025h-gruporivero.jpg" alt="avatar"/>
-		<figcaption> 
-			<ul>
-				<li><strong>Montacargas 2025H</strong></li>
-				<li><strong>Motor</strong>: Nissan K21/2.065L</li>
-				<li><strong>Capacidad:</strong> 2500 kg</li>
-				<li><strong>Mástil:</strong> Triple Desplazador Lateral</li>
-				<li><strong>Combustón:</strong> Gas/LPG</li>
-			</ul>
-		</figcaption>
-	<p class="item-complementos"><a href="#">Descargar ficha técnica</a></p>
-	<p class="item-complementos"><a href="#">Ver Galeria</a></p> 
-	</figure>
-	
-</section>
-
-<footer>
+<footer >
 <section>
 	
 	<article class="grid">
@@ -308,7 +270,6 @@ function MM_swapImage() { //v3.0
 
 
 
-</section>
 
 
 
