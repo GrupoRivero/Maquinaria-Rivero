@@ -66,10 +66,14 @@ function MM_swapImage() { //v3.0
 
 
 	<header>					
-			<figure id="logo">
-				<img src="img/logo.png" />
+			<figure class="fade" id="logo">
+				<a href="index.html"><img src="img/logo.png" /></a>
 			</figure>	
+
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-genie.png" alt=""></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-liugong.png" alt=""></a></figure>
 	</header>
+
 
 	<section id="info-box">
 		<p> Av. Sendero No. 501 Col. Las Misiones, San Nicolás de los Garza, N.L Tel. 8040-1020</p>
@@ -133,12 +137,11 @@ function MM_swapImage() { //v3.0
             <h2>¿Necesitas Información?</h2>
             <label> Nombre: </label>
             <input type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" />
-            <br/>
+            <br><br>
             <label>   Correo: </label>
             <input type="email" name="email" id="email" title="correo" required  align="right">
             </input>
-            <br />
-            <label> Teléfono: </label>
+            <br><br>            <label> Teléfono: </label>
             <input type="tel" name="tel" id="tel">
             </input>
             <br>
