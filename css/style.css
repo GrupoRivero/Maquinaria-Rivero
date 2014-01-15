@@ -5,16 +5,7 @@
 	padding:0;
 }
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/fonts/icomoon.eot');
-	src:url('../fonts/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/fonts/icomoon.woff') format('woff'),
-		url('../fonts/fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 @font-face {
     font-family: 'bitsumishiregular';
@@ -47,6 +38,20 @@ article#tab figure .tabs
 	box-shadow: 5px 20px 5px #888888;
 
 }
+
+
+#icono-chat
+	{
+		
+		width: 15px;
+		-webkit-transition:all 0.5s ease-out;
+	}
+
+
+	#icono-chat:hover
+	{
+		width: 20px
+	}
 
 
 
@@ -211,16 +216,31 @@ section.chat-contactanos
 	padding: 1em;
 	margin-top:1em; 
 	background: #002e6f;
+	color: white;
 	
 }
 
-section.chat-contactanos a
+section.chat-contactanos a,section.chat-contactanos p
 {
 	
 	color: white;
 	display: block;
 	text-decoration: none;
 	font-size: 20px;
+}
+
+
+section.chat-contactanos a:hover
+{
+	color: orange;
+	text-decoration: underline;
+}
+
+section.chat-contactanos p
+{
+	font-size: 12px;
+	margin-left: 1em;
+
 }
 
 
