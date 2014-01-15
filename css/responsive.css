@@ -147,7 +147,10 @@ section.chat-contactanos a
 {
 	margin-top:0.5em;
 }
-		
+	.slider-box2
+	{
+		width: 65%;
+	}	
 
 	header 
 	{
