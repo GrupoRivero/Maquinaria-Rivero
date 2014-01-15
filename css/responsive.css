@@ -89,7 +89,7 @@
 		background: white ; 
 		border-radius: 10px; 
 		padding: 0.1em;
-		margin: 0.5em;
+		margin: 0 0 0.05em 0;
 		max-width: 250px;
 		width: 100%;
 		padding: 0.5em 0;
@@ -125,6 +125,10 @@ section.chat-contactanos a
 		left: 10px ;
 	}
 
+.cajadevideo
+{
+	margin-top:1em;
+}
 		
 
 	header 

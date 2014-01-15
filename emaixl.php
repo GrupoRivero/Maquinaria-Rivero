@@ -15,8 +15,8 @@ $como=$_POST['como'];
 $mensaje=$_POST['mensaje'];
 
 // personales 
- //$mailx='maquinaria@gruporivero.com';
-$mailx='zack_cpp@hotmail.com';
+ $mailx='maquinaria@gruporivero.com';
+
 
 $asunto='Formulario Maquinaria Rivero'; // max 30 caracteres Ok 
 

@@ -72,12 +72,6 @@ article figure .subtitle
 article figure .subtitle a
 {
 	color:#f19700;
-	transition:all 0.5s linear ;
-}
-article figure .subtitle a:hover
-{
-	color:red;
-	font-size: 15px;
 	
 }
 
@@ -353,8 +347,7 @@ section.contenido-terciario .item-complementos
   height: 240px; 
   background-color: white; 
   display: block; 
-  z-index: 9999; 
-  background-image: url('../img/bdc.jpg'); 
+  z-index: 9999;    
   border: 0px solid rgb(211, 211, 211); 
   line-height: normal; 
   left: 1050px; 
