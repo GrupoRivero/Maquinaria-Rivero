@@ -5,6 +5,15 @@
 	padding:0;
 }
 
+#aviso-privacidad
+{
+	
+	margin:0;
+	padding: 0;
+	color: white;
+
+}
+
 
 
 @font-face {
@@ -39,6 +48,15 @@ article#tab figure .tabs
 
 }
 
+
+p#direccion_footer
+{
+	margin-left: 2em;
+	padding: 0;
+	float: left;
+	font-weight: normal;
+
+}
 
 #icono-chat
 	{
