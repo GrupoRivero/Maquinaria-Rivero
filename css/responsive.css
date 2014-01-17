@@ -16,7 +16,10 @@
 		right: 10px ;
 		
 	}
-
+section.chat-contactanos a,section.chat-contactanos p 
+{
+	font-size: 20px;
+}
 
 
 

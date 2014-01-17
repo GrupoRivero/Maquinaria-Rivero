@@ -10,12 +10,13 @@ $redireccionx='http://maquinariarivero.com/contacto-maquinaria-construccion-liug
 
 $nombre=$_POST['nombre'];
 $correo=$_POST['email'];
-$telefono=$_POST['telefono'];
+$telefono=$_POST['tel'];
 $como=$_POST['como'];
 $mensaje=$_POST['mensaje'];
 
 // personales 
  $mailx='maquinaria@gruporivero.com';
+// $mailx='irodriguez@gruporivero.com';
 
 
 $asunto='Formulario Maquinaria Rivero'; // max 30 caracteres Ok 

@@ -135,19 +135,19 @@ function MM_swapImage() { //v3.0
 
 
 
-   <section id="form-box">
+   < <section id="form-box">
        <form action="emaixl.php" method="post">
           <fieldset>
             <h2>¿Necesitas Información?</h2>
             <label> Nombre: </label>
-            <input  type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required/>
+            <input type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
             <br/>
             <label>   Correo: </label>
-            <input type="email" name="email" id="email" title="correo" required  align="right" required>
+            <input type="email" name="email" id="email" title="correo" required  align="right">
             </input>
             <br />
-            <label>Numero: </label>
-            <input type="tel" name="tel" id="tel" required>
+            <label> Teléfono*: </label>
+            <input value="Obligatorio" type="tel" name="tel" id="tel" required>
             </input>
             <br>
             <br>
@@ -176,24 +176,8 @@ function MM_swapImage() { //v3.0
             <br />
             <textarea cols="28" rows="10" name="mensaje"></textarea>
             <br />
-            <button  type="submit" value="ENVIAR" name="submit1" id="submit" >Enviar <b </button>
+            <input type="submit" value="ENVIAR" name="submit1" id="submit" />
           </fieldset>
-
-
-         <!-- <section class="aside-direccion">
-	
-	<p>Visítanos en:</p>
-
-	<ul>
-		<li><strong>Dirección</strong></li>
-		<li>Av. Sendero No. 501 Col. Las Misiones.
-San Nicolas de los Garza N.L.</li>
-		<li><strong>Teléfonos</strong></li>
-		<li>8040-1020 /1967-2277</li>
-		<li><strong>email</strong></li>
-		<li>maquinaria@gruporivero.com</li>
-	</ul>
-</section> -->
           	
    </section>
 
@@ -276,7 +260,16 @@ San Nicolas de los Garza N.L.</li>
 </script>
 
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-47122234-1', 'maquinariarivero.com');
+  ga('send', 'pageview');
+
+</script>
 
 
 
