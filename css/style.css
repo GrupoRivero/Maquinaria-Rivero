@@ -5,6 +5,12 @@
 	padding:0;
 }
 
+.tsmall
+{
+	font-size: 8px;
+	font-weight: normal;
+}
+
 #aviso-privacidad
 {
 	
@@ -652,5 +658,11 @@ section.aside-direccion ul li a
 .tleft
 {
 	text-align: left;
+	margin: 1em 0 1em 0;
+}
+
+.tcenter
+{
+	text-align: center;
 	margin: 1em 0 1em 0;
 }
