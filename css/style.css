@@ -101,7 +101,7 @@ article figure .subtitle a
 
 aside
 {
-	
+	border:1px orange solid;
 }
 body
 { 
@@ -215,6 +215,8 @@ header #logo img
 
 
 
+
+
 nav 
 {
 	
@@ -262,6 +264,19 @@ section.chat-contactanos p
 
 }
 
+section .contenido-items
+	{
+		border: 1px solid red;
+		padding: 0.5em;
+		box-sizing:border-box;
+	}
+
+	section .contenido-items figure img
+	{
+		max-width: 800px;
+		width: 100%;
+	}
+
 
 section#tabs
 {
@@ -272,16 +287,16 @@ section#tabs
 }
 
 
-section.contenido section #venta-nuevos 
+section.contenido-items section #venta-nuevos 
 { 
 		margin:10px 10px;
 
 }
-section.contenido section #venta-nuevos img
+section.contenido-items section #venta-nuevos img
 {
 		margin-bottom: :0;
 		padding: 0;
-		max-width: 1200px;
+		max-width: 400px;
 		text-align: center;
 		width: 100%; 
 		border-radius: 10px;
@@ -409,6 +424,16 @@ section.contenido-terciario .item-complementos
 		transition:all 2s ease;
 		
 }
+
+#form-box form select
+{
+	
+		border-radius: 10px; 
+		padding: 0.1em;
+		
+		
+}
+
 #form-box form #submit
 {
 		background: #ffb800; 

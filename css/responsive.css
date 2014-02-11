@@ -4,8 +4,11 @@
 	{
 		display: inline-block;
 		float: right;
-		width: 33%;
-		margin: 1em 0 0 0;
+		width: 35%;
+		margin: 0 0 0 0;
+		padding:0 1em 1em 1em ;
+		box-sizing:border-box;
+		vertical-align: top;
 		
 	}
 
@@ -51,6 +54,15 @@ section.chat-contactanos a,section.chat-contactanos p
 		vertical-align: top;
 		text-align: center;
 		width: 32%;
+
+	}
+
+	section.contenido-items
+	{
+		border: 1px solid red;
+		width: 60%;
+		display: inline-block;
+
 
 	}
 	section.contenido-terciario .item-complementos
@@ -176,12 +188,13 @@ header #logo
 	
 	 width: 400px; 
 	 display: inline-block;
+	 
 }
 
 header #logo img 
 
 {
-	max-width: 400px;
+	max-width: 350px;
 	width: 100%;	
 	margin:0;
 	text-align: left;
@@ -192,19 +205,24 @@ header #logo img
 figure#sublogo
 {
 	
-	vertical-align: top; 
-	
+	vertical-align: top; 	
 	float: right;
 	margin-top: 3em;
+	margin-right: 0.5em;
+	
 }
 figure#sublogo img
 {
 	
-	max-width: 150px;
+	max-width: 100px;
 	width: 100%;
+	
 }
 
-
+#info-box{
+	
+	
+	clear: both;
 
 
 

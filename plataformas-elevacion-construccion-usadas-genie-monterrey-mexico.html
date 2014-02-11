@@ -66,13 +66,16 @@ function MM_swapImage() { //v3.0
 <section class="contenido">
 
 	
-	<header>					
+		<header>					
 			<figure class="fade" id="logo">
 				<a href="index.html"><img src="img/logo.png" /></a>
 			</figure>	
 
-			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-genie.png" alt="Distribuidor Genie"></a></figure>
-			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-liugong.png" alt="Distribuidor Liu Gong"></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-genie.png" alt="Venta de Maquinaria Pesada Genie"></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-liugong.png" alt="Venta de Maquinaria Pesada Liu Gong"></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/dressta-logo.png" alt="Venta de Maquinaria Pesada Liu Gong"></a></figure>
+
+			
 	</header>
 
 
@@ -129,7 +132,10 @@ function MM_swapImage() { //v3.0
 <!--Fin Menu -->
 	
 
-<section class="contenido"> 
+<section class="contenido-items"> 
+<figure>
+	<img src="img/venta-plataformas-elevacion-banner.jpg" alt="">
+</figure>
 <h1>Ventas de Plataformas de Elevación Usadas</h1>
 	
 	<section>
@@ -143,40 +149,94 @@ function MM_swapImage() { //v3.0
 		<a href="construccion-plataformas-tijera-usadas-monterrey-nuevo-leon-mexico-genie.html"><img src="img/plataformatijera.png" alt="Venta de Plataformas de Tijeras Usadas"/></a>
 		<figcaption><h3>Plataformas de Tijeras</h3></figcaption>
 		</article>
+	</section>
 
+	<section>
 		<article id="venta-nuevos">
 		<a href="construccion-plataformas-articuladas-usadas-monterrey-nuevo-leon-mexico-genie.html"><img src="img/plataformastelescopicas.png" alt="Venta de Plataformas Personales Articuladas"/></a>
 		<figcaption><h3>Plataformas Articuladas</h3></figcaption>
 		</article>
 
-	</section>
 
 
-	<section>
 		
 
 		<article id="venta-nuevos">
 		<a href="construccion-plataformas-telescopicas-usadas-monterrey-nuevo-leon-mexico-genie.html"><img src="img/S80-(200x120).jpg" alt="Venta de Plataformas Telescopicas Usadas"/></a>
 		<figcaption><h3>Plataformas Telescópicas</h3></figcaption>
 		</article>
+	</section>
+	<section>
+		
 
 		<article id="venta-nuevos">
 		<a href="construccion-plataformas-articuladas-sobre-remolque-usadas-monterrey-nuevo-leon-mexico-genie.html"><img src="img/awp-30s-(200x120).jpg" alt="Venta de Plataformas Articuladas sobre Remolque"/></a>
 		<figcaption><h3>Plataformas Articuladas <br> sobre remolque</h3></figcaption>
 		</article>
+	</section>
 
 		
 
 			
-	</section>
 </section>
 
 
 <style>
 
 </style>
-<aside> </aside>
+<aside >
 
+
+
+    <section id="form-box">
+       <form action="emaixl.php" method="post">
+          <fieldset>
+            <h2>¿Necesitas Información?</h2>
+            <label> Nombre: </label>
+            <input type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
+            <br/>
+            <label>   Correo: </label>
+            <input type="email" name="email" id="email" title="correo" required  align="right">
+            </input>
+            <br />
+            <label> Teléfono*: </label>
+            <input placeholder="Obligatorio" type="tel" name="tel" id="tel" required>
+            </input>
+            <br>
+            <br>
+            <label>¿Cómo se enteró de nosotros?</label>
+            <select name="como">
+              <option value="Buscador">Google</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter</option>
+              <option value="TV">Youtube</option>
+              <option value="TV">TV</option>
+              <option value="Amigo">Amigo</option>
+              <option value="Prensa">Prensa</option>
+              <option value="Seccion">Sección Amarilla</option>
+              <option value="Radio">Radio</option>
+              <option value="Volante">Volante</option>
+              <option value="Cliente">Cliente Anterior</option>
+            </select>
+            <br>
+            <?
+   require_once('recaptchalib.php');
+   $publickey = "6Lcg0ugSAAAAAHvKUqMZbXeIeMxVZr3SrjRdPaKR"; // you got this from the signup page
+   echo recaptcha_get_html($publickey);
+?>
+            <br>
+            <label> Comentario: </label>
+            <br />
+            <textarea cols="28" rows="10" name="mensaje"></textarea>
+            <br />
+            <input type="submit" value="ENVIAR" name="submit1" id="submit" onclick="ga('send', 'event', 'Form', 'click', 'formButton', 4);" />
+          </fieldset>
+          	
+   </section>
+
+
+
+</aside>
 
 
 <footer>

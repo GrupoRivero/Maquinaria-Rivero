@@ -65,13 +65,16 @@ function MM_swapImage() { //v3.0
 <section class="contenido">
 
 	
-	<header>					
+		<header>					
 			<figure class="fade" id="logo">
 				<a href="index.html"><img src="img/logo.png" /></a>
 			</figure>	
 
-			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-genie.png" alt=""></a></figure>
-			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-liugong.png" alt=""></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-genie.png" alt="Venta de Maquinaria Pesada Genie"></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/logo-liugong.png" alt="Venta de Maquinaria Pesada Liu Gong"></a></figure>
+			<figure class="fade" id="sublogo"><a href="#"><img class="sub-logos" src="img/marcas/dressta-logo.png" alt="Venta de Maquinaria Pesada Liu Gong"></a></figure>
+
+			
 	</header>
 
 
@@ -129,7 +132,11 @@ function MM_swapImage() { //v3.0
 
 	
 
-<section class="contenido"> 
+<section class="contenido-items"> 
+
+<figure>
+	<img src="img/venta-maquinaria-pesada-banner.jpg" alt="">
+</figure>
 
 <h1>Venta de Maquinaria Pesada Nueva</h1>
 		
@@ -144,6 +151,7 @@ function MM_swapImage() { //v3.0
 		<a href="construccion-retroexcavadoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.html"><img src="img/retroexcavadores.png" alt="Venta de Retroexcavadoras"/></a>
 			<figcaption><h3>Retroexcavadoras</h3></figcaption>
 		</article>
+	</section>
 
 		<article id="venta-nuevos">
 		<a href="construccion-cargadoresfrontales-nuevos-monterrey-nuevo-leon-mexico-liu-gong.html"><img src="img/cargadoresfrontales.png" alt="Venta de Cargadores Frontales"/></a>
@@ -154,7 +162,6 @@ function MM_swapImage() { //v3.0
 		<a href="construccion-excavadoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.html"><img src="img/excavadoras.png" alt="Venta de Excavadoras"/></a>
 		<figcaption><h3>Excavadoras</h3></figcaption>
 		</article>		
-	</section>
 
 
 	<section>
@@ -168,22 +175,76 @@ function MM_swapImage() { //v3.0
 		<a href="construccion-motoniveladoras-nuevos-monterrey-nuevo-leon-mexico-liu-gong.html"><img src="img/motoconformadoras.png" alt="Venta de Motoniveladoras"/></a>
 		<figcaption><h3>Motoniveladoras</h3></figcaption>
 		</article>
+	</section>
+	<section>
+		
 
 		<article id="venta-nuevos">
 		<a href="construccion-bulldozer-nuevos-monterrey-nuevo-leon-mexico-liu-gong.html"><img src="img/bulldozer.png" alt="Venta de bulldozers"/></a>
 		<figcaption><h3>Bulldozers</h3></figcaption>
 		</article>
+	</section>
 
 			
-	</section>
 </section>
 
 
 <style>
 
 </style>
-<aside> </aside>
+<aside >
 
+
+
+    <section id="form-box">
+       <form action="emaixl.php" method="post">
+          <fieldset>
+            <h2>¿Necesitas Información?</h2>
+            <label> Nombre: </label>
+            <input type="text" name="nombre" id="nombre" title="Nombre" maxlength="60" autocomplete="off" required />
+            <br/>
+            <label>   Correo: </label>
+            <input type="email" name="email" id="email" title="correo" required  align="right">
+            </input>
+            <br />
+            <label> Teléfono*: </label>
+            <input placeholder="Obligatorio" type="tel" name="tel" id="tel" required>
+            </input>
+            <br>
+            <br>
+            <label>¿Cómo se enteró de nosotros?</label>
+            <select name="como">
+              <option value="Buscador">Google</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter</option>
+              <option value="TV">Youtube</option>
+              <option value="TV">TV</option>
+              <option value="Amigo">Amigo</option>
+              <option value="Prensa">Prensa</option>
+              <option value="Seccion">Sección Amarilla</option>
+              <option value="Radio">Radio</option>
+              <option value="Volante">Volante</option>
+              <option value="Cliente">Cliente Anterior</option>
+            </select>
+            <br>
+            <?
+   require_once('recaptchalib.php');
+   $publickey = "6Lcg0ugSAAAAAHvKUqMZbXeIeMxVZr3SrjRdPaKR"; // you got this from the signup page
+   echo recaptcha_get_html($publickey);
+?>
+            <br>
+            <label> Comentario: </label>
+            <br />
+            <textarea cols="28" rows="10" name="mensaje"></textarea>
+            <br />
+            <input type="submit" value="ENVIAR" name="submit1" id="submit" onclick="ga('send', 'event', 'Form', 'click', 'formButton', 4);" />
+          </fieldset>
+          	
+   </section>
+
+
+
+</aside>
 
 
 <footer>
