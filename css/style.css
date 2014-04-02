@@ -17,6 +17,7 @@
 
 
 
+
 @font-face {
     font-family: 'bitsumishiregular';
     src: url('../fonts/bitsumis.eot');
@@ -54,7 +55,7 @@ p#direccion_footer
 {
 	margin-left: 2em;
 	padding: 0;
-	float: left;
+	float: left;header
 	font-weight: normal;
 
 }
@@ -101,7 +102,7 @@ article figure .subtitle a
 
 aside
 {
-	border:1px orange solid;
+	border:none;
 }
 body
 { 
@@ -176,7 +177,8 @@ footer ul, footer ul li a
 	font-size: 12px;
 }
 
-iframe{
+iframe
+{
 
     position:absolute;
     height:100%;
@@ -187,13 +189,14 @@ iframe{
 }
  header
  {
-		background: -webkit-linear-gradient(#001882 ,  white  ); /* For Safari */
-		background: -o-linear-gradient(#001882, white ); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#001882, white ); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to #001882 ,  white ); /* Standard syntax */
-
-		border-radius:10px 10px 0 0 ;
-		text-align: center;
+	background: #001882; /* Old browsers */
+background: -moz-linear-gradient(left, #001882 0%, #ededed 80%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#001882), color-stop(80%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #001882 0%,#ededed 80%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #001882 0%,#ededed 80%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #001882 0%,#ededed 80%); /* IE10+ */
+background: linear-gradient(to right, #001882 0%,#ededed 80%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001882', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */
 }
 
 header #logo
@@ -234,10 +237,11 @@ section.chat-contactanos
 {
 	
 	border-radius: 10px ;
-	padding: 1em;
+	padding: 2em;
 	margin-top:1em; 
 	background: #002e6f;
 	color: white;
+	position: relative;
 	
 }
 
@@ -266,7 +270,7 @@ section.chat-contactanos p
 
 section .contenido-items
 	{
-		border: 1px solid red;
+		border:none;
 		padding: 0.5em;
 		box-sizing:border-box;
 	}
@@ -685,4 +689,63 @@ section.aside-direccion ul li a
 {
 	text-align: center;
 	margin: 1em 0 1em 0;
+}
+section.main-item-picture
+{
+	background: url(../img/maquina.jpg);
+}
+
+.main-item-picture figure img
+{
+	max-width: 1200px;
+	width:100%;
+	position: relative;
+}
+
+.main-item-picture-form form
+ {
+	border: 1px solid red;
+ }
+
+ .main-item-picture-form form input
+ {
+
+	
+	width:350px;
+	height: 50px;
+	margin-top: 0.5em;
+	border: 1px solid #cccccc;
+	font-size: 18px ;
+ }
+
+ .main-item-picture-form form textarea
+
+ {	
+	width:350px;
+	margin-top: 0.5em;
+ }
+
+.main-item-picture-form form #boton-landing
+{
+	background: #FFB800;
+	border-radius: none;
+	height: 50px  ;
+
+}
+.main-item-picture-tabs 
+{
+	border: 1px solid red;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.main-item-picture-tabs .main-item-picture-tabs-tabs
+{
+	width:350px;
+	height: 50px;
+	border: 1px solid #cccccc;
+	font-size: 18px ;
+	margin: 0.5em auto;
+
+
 }
